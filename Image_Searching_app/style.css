@@ -7,7 +7,7 @@
     font-family: 'Ephesis', cursive;
 }
 body{
-    background-color: #0C2D48;
+    background-color: #010f1b;
     color: aliceblue;
     line-height: 1.6;
 }
@@ -31,12 +31,13 @@ form{
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     font-size: 18px;
-    color: #0C2D48;
+    color: #000000;
+    font-weight: bold;
 }
 #search-button{
     padding: 10px 20px;
     background-color: #2E8BC0;
-    color: #0C2D48;
+    color: #000000;
     font-weight: bold;
     border: none;
     font-size: 18px;
@@ -44,6 +45,11 @@ form{
     cursor: pointer;
     border-radius: 5px;
     margin-left: 10px;
+}
+#search-button:hover{
+    background-color: #80c6ee;
+    box-shadow: 0 0 5px #00eaff,0 0 20px #00eaff, 0 0 50px #00eaff,0 0 100px #00eaff;
+    transition: 1s;
 }
 .explored-images{
     display: flex;
@@ -67,7 +73,7 @@ form{
     object-fit: cover;
 }
 .explored-image:hover{
-    box-shadow: 0 0 6px rgba(59, 199, 255, 0.764);
+    box-shadow: rgba(59, 199, 255, 0.764) 0px 22px 70px 4px;
 }
 .explored-image a{
     font-size: 17px;
@@ -80,14 +86,18 @@ form{
     font-size: 18px;
     font-weight: bold;
     border: none;
-    color: #0C2D48;
+    color: #000000;
     padding: 10px 20px;
     text-align: center;
-    /* display: block; */
     cursor: pointer;
     border-radius: 5px;
     margin: 30px auto;
     display: none;
+}
+#showMoreBtn:hover{
+    background-color: #80c6ee;
+    box-shadow: 0 0 5px #00eaff,0 0 20px #00eaff, 0 0 50px #00eaff,0 0 100px #00eaff;
+    transition: 1s;
 }
 /* for tab screen */
 @media screen  and (max-width: 780px){
