@@ -74,7 +74,6 @@ form{
     text-decoration: none;
     color: aliceblue;
     display: block;
-    padding: 5px;
 }
 #showMoreBtn{
     background-color: #2E8BC0;
@@ -89,4 +88,22 @@ form{
     border-radius: 5px;
     margin: 30px auto;
     display: none;
+}
+/* for tab screen */
+@media screen  and (max-width: 780px){
+    .explored-images{
+        padding: 20px;
+    }
+    .explored-image{
+        width: 45%;
+    }
+}
+/* for mobile phone screen */
+@media screen  and (max-width: 480px){
+    .explored-image{
+        width: 100%;
+    }
+    #search-button{
+        margin-left: 3px;
+    }
 }
