@@ -1,7 +1,7 @@
 ## Project Demo
 
 ### Exploring the images
-https://github.com/Sriram2828/Image-Searching-Webpage/assets/116419943/a78a6a1c-b030-4111-8c96-709e7fc85fab
+https://github.com/Sriram2828/Image-Searching-Webpage/assets/116419943/5c261f4e-a067-4920-ae34-e875eac6483f
 
 ### Testing the responsiveness
-https://github.com/Sriram2828/Image-Searching-Webpage/assets/116419943/4748b282-b728-4e7a-8544-339ce611fdf3
+https://github.com/Sriram2828/Image-Searching-Webpage/assets/116419943/071eee2b-fe48-45b0-8c94-a898a2c3b9e7
